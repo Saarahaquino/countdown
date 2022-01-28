@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --black: #4d4c59;
+  --purple: #6c63ff;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+h1 {
+  position: absolute;
+  width: 518px;
+  height: 54px;
+  left: 127px;
+  top: 187px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+
+  color: #6c63ff;
+}
+
+.countdown-container{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 91px;
+  top: 262px;
+  color:#4d4c59
+}
+.text{
+  font-weight: bold; 
+  font-size: 5rem;
+  line-height:1;
+  margin: 1rem 2rem;
+  
+}
+.countdown-el{
+  top: 30px;
+}
+.countdown-el span{
+  font-size: 1.5rem ;
+}
+.att {
+  position: absolute;
+  color: #c8c8c8;
+  font-size: 13px;
+  left: 8px;
+  top: 10px;
+}
+
+#top {
+  position: absolute;
+  width: 1366px;
+  height: 229px;
+  left: 0px;
+  top: -48px;
+}
+#bottom {
+  position: absolute;
+  width: 1366px;
+  height: 229px;
+  left: 0px;
+  top: 550px;
+}
+#rocket {
+  position: absolute;
+  width: 607px;
+  height: 435px;
+  left: 699px;
+  top: 150px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ 
+
+
+button {
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  left: 290px;
+  top: 457px;
+  background-color: #6c63ff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.s{
+  position: absolute;
+width: 349px;
+height: 21px;
+left: 245px;
+top: 405px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+line-height: 21px;
+color: #9C9AB6;
+
+}
+.a{
+  color: #c8c8c8;
+}
+
+.b{
+  position: absolute;
+width: 30px;
+height: 3.82px;
+left: 52px;
+top: -11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+text-transform: capitalize;
+color: #C8C8C8;
+}
+
+.c{
+  position: absolute;
+width: 30px;
+height: 3.82px;
+left: 186px;
+top: -11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+text-transform: capitalize;
+color: #C8C8C8;
+}
+
+.d{
+  position: absolute;
+width: 30px;
+height: 3.82px;
+left: 304px;
+top: -11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+text-transform: capitalize;
+color: #C8C8C8;
+}
+
+
+.e{
+  position: absolute;
+width: 70px;
+height: 3.82px;
+left: 435px;
+top: -11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+text-transform: capitalize;
+color: #C8C8C8;
+
+}
